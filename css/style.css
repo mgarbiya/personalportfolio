@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Body CSS */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --grey: #1e1f20;
+  --yellow: #fbff00;
+}
+
+/* Header CSS */
+
+#header {
+  background-color: var(--grey);
+  display: flex;
+  justify-content: space-between;
+  padding: 1%1%1%0;
+}
+
+#headername {
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 40px;
+  padding: 0 15px 0 4%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  margin-right: 4%;
+}
+
+#header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+#header nav ul li {
+  padding: 5px;
+}
+
+#header nav ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  padding: 5px 10px;
+  color: var(--blue);
+  border-bottom: 4px solid var(--blue);
+}
+
+/* Banner CSS */
+
+.hero-banner {
+  background-color: var(--blue);
+  background-image: url(../images/02-hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: soft-light;
+  min-height: 30vh;
+  color: var(--white);
+  padding: 3% 8%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.hero-banner div {
+  flex: 0 0 90%;
+}
+
+.hero-banner h2 {
+  background-color: var(--blue);
+  color: var(--yellow);
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  display: inline;
+}
+
+/* My About Me / Page Section CSS */
+
+.page-wrapper {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
