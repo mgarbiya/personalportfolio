@@ -106,6 +106,16 @@ body {
   justify-content: space-between;
 }
 
+#about h2,
+#work h2,
+#contact h2 {
+  border-right: 3px solid #042e45;
+  color: #042e45;
+  font-size: 30px;
+  display: flex;
+  padding-right: 5%;
+}
+
 h1,
 h2,
 h3,
